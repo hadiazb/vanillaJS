@@ -1,0 +1,36 @@
+.template {
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  background-color: rgb(207, 210, 212);
+  border-radius: 4px;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.template__img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px 5px;
+  object-fit: cover;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.template__name {
+  font-size: 25px;
+  margin: 5px;
+  color: rgb(14, 69, 90);
+}
+
+.template__lastname {
+  font-size: 25px;
+  color: rgb(14, 69, 90);
+}
+
+.template__email {
+  margin: 5px;
+}
